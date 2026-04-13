@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Associação do CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+  <div class="nbar">
+      <nav>
+        <ul class="BARRA">
+          <a id="number" href="#" onclick="fnum()">numero</a>
+          <a id="adress" href="#"onclick="fdress()">endereço</a>
+          <a id="chave" href="#" onclick="fkey()">key</a>
+          <a id="sobre" href="#"onclick="fabolt()">about</a>
+        </ul>
+      </nav>
+  </div>
+  <div class="search">
+      <input id="ss" type="search" placeholder="PESQUISAR">
+      <input id="bt" type="button" onclick="search()" value="PESQUISAR">
+  </div>
+  <div class="Body">
+      <label>
+        <input id="gm"class="email" type="email" placeholder="GMAIL">
+        <input id="pss"class="pass" type="password" placeholder="senha">
+        <button class="centerbt" onclick="LOGIN()">LOGIN</button>
+  
+      <div id="alerta" class="alerta">
+      <p id="textoAlerta">alerta aqui</p>
+      <button id="OK"onclick="fecharAlerta()">OK</button>
+      </label>
+  </div>
+</div>
+</body>
+</html>
